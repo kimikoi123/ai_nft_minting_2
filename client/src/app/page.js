@@ -153,7 +153,7 @@ export default function Home() {
         </form>
 
         <div className="image">
-          {!isWaiting && image ? (
+          {image ? (
             <img src={image} alt="AI generated image" />
           ) : isWaiting ? (
             <div className="image__placeholder">
